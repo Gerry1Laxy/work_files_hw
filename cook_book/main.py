@@ -38,7 +38,7 @@ def get_shop_list_by_dishes(dishes: list, person_count: int, cookbook: dict) -> 
 
 
 if __name__ == '__main__':
-    dir_file = r'cook_book\file'
+    dir_file = 'file'
     name_file = 'recipes.txt'
     path_to_file = os.path.join(dir_file, name_file)
 
